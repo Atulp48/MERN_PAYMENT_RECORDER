@@ -48,7 +48,7 @@ const Event = ({ items }) => {
             </div>
             <div>
                 <input onChange={() => updt(_id)} type="checkbox" checked={isCompleted} />
-                <button onClick={() => dlt(_id)} className="btn">REMOVE</button>
+                <button onClick={() => dlt(_id)} className="btn">DONE</button>
             </div>
 
         </div>
