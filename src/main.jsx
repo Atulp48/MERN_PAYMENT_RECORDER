@@ -5,7 +5,8 @@ import "./design/app.scss"
 
 export const server = "https://notelist-1wbx.onrender.com/api/v1"
 
-export const Context = createContext({ isAuthenticated: false })
+
+export const Context = createContext()
 
 const AppWrapper = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
