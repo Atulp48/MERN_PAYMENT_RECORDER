@@ -54,9 +54,9 @@ function Home() {
       <div className='login'>
         <section>
           <form onSubmit={submithndl}>
-            <input type='text' value={tit} onChange={(e) => setTitle(e.target.value)} placeholder='Title' required></input>
-            <input type='text' value={disc} onChange={(e) => setDesc(e.target.value)} placeholder='write Note Here' required></input>
-            <button disabled={load} type='submit'>ADD</button>
+            <input type='text' value={tit} onChange={(e) => setTitle(e.target.value)} placeholder='Write Payment Title Here' required></input>
+            <input type='text' value={disc} onChange={(e) => setDesc(e.target.value)} placeholder='Write Payment details Here' required></input>
+            <button disabled={load} type='submit'>Add Payment</button>
           </form>
         </section>
       </div>
