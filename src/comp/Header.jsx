@@ -32,7 +32,7 @@ function Header() {
   return (
     <nav className='header'>
       <div>
-        <h2>Note Pad</h2>
+        <h2>PAYMENT</h2>
       </div>
       <article>
         <Link to={"/"}>
